@@ -159,9 +159,39 @@ nav ul li:hover .sous{
   padding: 1rem 0;
 }
 
+
+
 #home h1{
   font-size: 3rem;
   color: yellow;
+}
+
+/* room */
+
+#room{
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  padding: 0 15rem;
+  
+}
+
+#room h3{
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+
+#room h1{
+  font-size: 3rem;
+  color: yellow;
+}
+
+#room p{
+  font-size: 1.5rem;
+  color: #fff;
+  padding: 1rem 0;
+  margin-right: 34%;
 }
 
 .title{
@@ -191,6 +221,7 @@ nav ul li:hover .sous{
   border-radius: 10px;     
   overflow: hidden; 
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+ 
 }
 
 #certif img {
